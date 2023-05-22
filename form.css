@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body
+{
+    background-color: skyblue;
+}
+
+main
+{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 900px;
+    text-align: center;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    border-radius: 50px;
+}
+span
+{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 12px;
+    transform: translate(-50%, 0);  
+}
+form
+{
+    transition: all 0.3s ease-out;
+    text-align: center;
+    display: block;
+
+
+    transform: translateY(150px);
+}
+input
+{
+    width: 80%;
+    height: 5%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+.texterror
+{
+    display:inline-block;
+    color:red;
+    font-size: 20px;
+}
+input[type="submit"]
+{
+    margin-top: 60px;
+    padding: 10px;
+    cursor :pointer;
+    background-color: lightgreen;
+    transition: 0.3s ease-out;
+}
+input:hover
+{
+    background-color: skyblue;
+}
+input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    text-align: center;
+}
+
+#registerButton
+{
+    background-color:   rgb(97, 201, 97);
+    text-decoration: none;
+    cursor :pointer;
+    transition: 0.3s ease-out;
+}
+
+#registerButton:hover
+{
+    background-color: skyblue;
+}
+
+label , label > input
+{
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.error
+{
+    color: red;
+}
+
+
+.text-xs-center {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+
+#container {
+    background-color: whitesmoke;
+    width: 500px;
+
+    margin: 100px auto;
+    border-radius: 50px;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#back_now
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgreen;
+    transition: 0.3s ease-out;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+#back_now:hover
+{
+    background-color: skyblue;
+}
